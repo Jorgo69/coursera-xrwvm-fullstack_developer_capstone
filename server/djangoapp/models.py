@@ -12,8 +12,8 @@ class CarMake(models.Model):
     description = models.TextField()
 
     # Autres champs facultatifs
-    founded_year = models.IntegerField(null=True, blank=True, help_text="Année de création de la marque")
-    headquarters = models.CharField(max_length=200, null=True, blank=True, help_text="Siège social de la marque")
+    # founded_year = models.IntegerField(null=True, blank=True, help_text="Année de création de la marque")
+    # headquarters = models.CharField(max_length=200, null=True, blank=True, help_text="Siège social de la marque")
 
     def __str__(self):
         return self.name  # Retourne le nom comme représentation textuelle
